@@ -1,0 +1,15 @@
+<!--pages/index.wxml-->
+<view class="warp">
+  <view class="imgItem">
+    <image wx:if="{{userInfo.avatarUrl}}" class="imgLogo" src="{{userInfo.avatarUrl}}"></image>
+    <view  wx:if="{{userInfo.nickName}}">{{userInfo.nickName}}</view>
+    <button wx:else open-type='getUserInfo' bindgetuserinfo='getUserInfo' >用户信息</button>
+    
+  </view>
+
+  <!-- 1.bindtap绑定     不会阻止事件向上冒泡
+       2.catchtap邦定    可以阻止事件向上冒泡 -->
+  <view class="textEntrance"catchtap="tapName" >
+    <text catchtap="tapName">开启微信小程序支旅</text>
+  </view>
+</view>

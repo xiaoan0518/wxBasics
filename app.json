@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/skip/skip"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#00B0FB",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "小安",
+    "backgroundTextStyle": "light"
+  },
+  "sitemapLocation": "sitemap1.json"
+}

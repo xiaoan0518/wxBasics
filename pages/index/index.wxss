@@ -1,0 +1,22 @@
+/* pages/index.wxss */
+.warp{
+  display: flex;
+  flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  height: 100%;
+  background: #00B0FB;
+}
+.imgItem{
+ margin: 100rpx 0 ;
+ text-align: center
+}
+.imgLogo{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  margin-bottom: 30px
+}
+.textEntrance{
+   margin-top: 300rpx;
+}
